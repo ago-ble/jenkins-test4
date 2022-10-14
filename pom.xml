@@ -15,6 +15,18 @@
     <version>7.6.1</version>
     <scope>test</scope>
 </dependency>
-
 </dependencies>
+
+<build>
+    <plugins>
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-compiler-plugin</artifactId>
+            <configuration>
+                <source>3.8.6</source>
+                <target>3.8.6</target>
+            </configuration>
+        </plugin>
+    </plugins>
+</build>
 </project>
